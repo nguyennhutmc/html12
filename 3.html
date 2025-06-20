@@ -1,0 +1,489 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Water</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        /* Custom styles */
+        .navbar {
+            background-color: #007bff; /* Example color */
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        .nav-link:hover {
+            color: #eee !important;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        /* Add more custom styles as needed */
+        .onwater-header {
+            background-color: #003865;
+            color: white;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .onwater-header h1 {
+            font-size: 3em;
+        }
+
+        .onwater-header p {
+            font-size: 1.5em;
+        }
+
+        #wasserwissen-vor-ort {
+            padding: 20px;
+        }
+
+        #wasserwissen-vor-ort h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #wasserwissen-vor-ort p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        #wasserwissen-vor-ort input[type="text"],
+        #wasserwissen-vor-ort input[type="email"],
+        #wasserwissen-vor-ort textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Important for padding and border */
+        }
+
+        #wasserwissen-vor-ort button {
+            background-color: #003865;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #mapping {
+            background-color: #003865;
+            color: white;
+            padding: 20px;
+        }
+
+        #mapping h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #mapping p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        #mapping ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #mapping li {
+            margin-bottom: 5px;
+        }
+
+        #mapping li::before {
+            content: '\2022';  /* Bullet point */
+            color: #007bff;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        #map-section {
+            position: relative;
+            width: 100%;
+            height: 500px; /* Adjust as needed */
+            background-image: url('https://placehold.co/1920x500/ffffff/000000?text=Map+Placeholder');
+            background-size: cover;
+            background-position: center;
+        }
+
+        footer {
+            background-color: #003865;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .navbar-brand img {
+            width: 150px;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 123, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        .nav-item {
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            color: #003865 !important;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            color: #0056b3 !important;
+        }
+
+        .onwater-text {
+            color: #00a651;
+            font-size: 4em;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+
+        .wasserwissen-text {
+            font-size: 1.2em;
+            color: #003865;
+        }
+
+        #wasserwissen-vor-ort {
+            padding: 50px 0;
+        }
+
+        #wasserwissen-vor-ort h2 {
+            color: #003865;
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        #wasserwissen-vor-ort p {
+            color: #003865;
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        #wasserwissen-vor-ort .form-control {
+            border-radius: 0;
+            border: 1px solid #ced4da;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #wasserwissen-vor-ort .btn-primary {
+            background-color: #003865;
+            border-color: #003865;
+            border-radius: 0;
+            padding: 12px 30px;
+            font-size: 1.1em;
+        }
+
+        #wasserwissen-vor-ort .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        #wasserwissen-vor-ort .map-container {
+            margin-top: 20px;
+        }
+
+        #wasserwissen-vor-ort .map-container img {
+            width: 100%;
+            border: 1px solid #ced4da;
+        }
+
+        #wasserwissen-vor-ort .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #mapping {
+            background-color: #003865;
+            padding: 50px 0;
+        }
+
+        #mapping h2 {
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        #mapping p {
+            color: white;
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        #mapping ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #mapping li {
+            color: white;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        #mapping li::before {
+            content: '';
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+        #mapping li.wasserwissen::before {
+            background-color: #20aed9;
+        }
+
+        #mapping li.verbundpartnerinnen::before {
+            background-color: #7c34a3;
+        }
+
+        #mapping li.parcours::before {
+            background-color: #e0315f;
+        }
+
+        #mapping li.dialog::before {
+            background-color: #00a651;
+        }
+
+        #mapping li.weitere::before {
+            background-color: #778186;
+        }
+
+        #map-section {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background-image: url('https://placehold.co/1920x500/ffffff/000000?text=Map+Placeholder');
+            background-size: cover;
+            background-position: center;
+        }
+
+        footer {
+            background-color: #003865;
+            color: white;
+            text-align: left;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .headline-popup {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            width: 400px;
+        }
+
+        .headline-popup .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border: none;
+            background: none;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        .headline-popup h3 {
+            color: #003865;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .headline-popup p {
+            color: #003865;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .headline-popup img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            max-width: 150px;
+            max-height: 50px;
+        }
+
+        .berlin-university-alliance {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .berlin-university-alliance img {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://placehold.co/150x50/ffffff/000000?text=Logo" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">START</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DIALOGE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PARCOURS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ORTE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THEMEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KONTAKT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid onwater-header">
+        <div class="container">
+            <h1 class="onwater-text">onwater</h1>
+            <p class="wasserwissen-text">WasserWissen in Berlin</p>
+        </div>
+    </div>
+
+    <div class="container" id="wasserwissen-vor-ort">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>WASSERWISSEN VOR ORT</h2>
+                <p>WasserWissen vor Ort: Welche Orte in Berlin sind für die Wasser-Forschung und Praxis relevant? Teilen Sie mit uns Ihre Wasserorte:</p>
+                <form>
+                    <input type="text" class="form-control" placeholder="Straße, PLZ">
+                    <textarea class="form-control" placeholder="Welche Expertise über Wasser ist hier zu finden?"></textarea>
+                    <input type="email" class="form-control" placeholder="E-Mail">
+                    <button type="submit" class="btn btn-primary">Absenden</button>
+                </form>
+                <div class="map-container">
+                    <img src="https://placehold.co/400x200/ffffff/000000?text=Map" alt="Map">
+                </div>
+            </div>
+            <div class="col-md-6 image-container">
+                <img src="https://placehold.co/600x400/ffffff/000000?text=Image" alt="Water Location">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="mapping">
+        <div class="container">
+            <h2>MAPPING</h2>
+            <p>ON WATER verbindet Wasser-Wissen aus Berlin. Orte des Wassers werden sichtbar gemacht. Die "WasserWissen-Orte" wurden durch Dr. Friederike Landau-Donelly erarbeitet.</p>
+            <ul>
+                <li class="wasserwissen">WasserWissen-Orte</li>
+                <li class="verbundpartnerinnen">Verbundpartnerinnen der Berlin University Alliance</li>
+                <li class="parcours">PARCOURS-Veranstaltungen</li>
+                <li class="dialog">DIALOG-Veranstaltungen</li>
+                <li class="weitere">Weitere Orte</li>
+                <li class="weitere">Weitere Orte</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="map-section">
+        <div class="headline-popup">
+            <button class="close-button">x</button>
+            <h3>HEADLINE</h3>
+            <p>Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati ulparum endam."</p>
+            <img src="https://placehold.co/350x200/ffffff/000000?text=Headline+Image" alt="Headline Image">
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://placehold.co/100x50/ffffff/000000?text=Logo1" alt="Logo 1">
+                <img src="https://placehold.co/100x50/ffffff/000000?text=Logo2" alt="Logo 2">
+                <img src="https://placehold.co/100x50/ffffff/000000?text=Logo3" alt="Logo 3">
+                <img src="https://placehold.co/100x50/ffffff/000000?text=Logo4" alt="Logo 4">
+            </div>
+            <p>Gefördert vom Bundesministerium für Bildung und Forschung (BMBF) und dem Land Berlin im Rahmen der Exzellenzstrategie von Bund und Ländern.</p>
+            <div class="berlin-university-alliance">
+                <img src="https://placehold.co/300x50/ffffff/000000?text=Berlin+University+Alliance" alt="Berlin University Alliance">
+            </div>
+            <p><a href="#">Impressum</a> <a href="#">Datenschutz</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
