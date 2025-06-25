@@ -1,227 +1,124 @@
 <?php include 'header.php'; ?>
 <main class="home_page">
-   <section class="hero-section hero1">
-      <div class="container h-100 d-flex align-items-center justify-content-center">
-         <img class="logo_trang" src="images/logo_trang.svg" alt="">
-      </div>
-   </section>
-   <section class="section1 text-center">
-      <div class="container">
-         <h3 class="fw-semibold mb-1">ON WATER | WasserWissen in Berlin</h3>
-         <p>lädt Wissenschaftler*innen ein, ihre Wasserforschung im Austausch<br>
-            mit der Gesellschaft zu diskutieren.
-         </p>
-         <p>Das Programm bringt Forscher*innen von Humboldt Universität, Technische Universität, Freie Universität sowie
-            Charité Universitätsmedizin mit der Stadtgesellschaft und ihren Wasser- Expert*innen zusammen.
-         </p>
-         <p>Das stärkt nicht nur die exzellente Forschung im Verbund der Berlin University Alliance, sondern befördert
-            auch die Resilienz der Gesellschaft.
-         </p>
-      </div>
-   </section>
-   <section class="event-section">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 col-left">
-               <div class="row">
-                  <div class="col-lg-6">
-                     <div class="card">
-                        <div class="card-body vstack">
-                           <h3 class="card-title">Veranstaltung Beispiel</h3>
-                           <div class="card-text text_ellipsis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed ...</div>
-                           <a href="#" class="seemore stretched-link">Weiter Informationen<img class="icon_right ms-4" src="images/right.svg" alt=""></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-6">
-                     <div class="card">
-                        <div class="card-body vstack">
-                           <h3 class="card-title">Headline für eine weitere Veranstaltung Beispiel</h3>
-                           <div class="card-text text_ellipsis">Cras risus arcu, sodales ac, ultrices ac, mollis quis, justo. Seda libero...</div>
-                           <a href="#" class="seemore stretched-link">Weiter Informationen<img class="icon_right ms-4" src="images/right.svg" alt=""></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-6">
-                     <div class="card">
-                        <div class="card-body vstack">
-                           <h3 class="card-title">Veranstaltung</h3>
-                           <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibendum auci ...</div>
-                           <a href="#" class="seemore stretched-link">Weiter Informationen<img class="icon_right ms-4" src="images/right.svg" alt=""></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-6">
-                     <div class="card">
-                        <div class="card-body vstack">
-                           <h3 class="card-title">Veranstaltung</h3>
-                           <div class="card-text text_ellipsis">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi ...</div>
-                           <a href="#" class="seemore stretched-link">Weiter Informationen<img class="icon_right ms-4" src="images/right.svg" alt=""></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-right">
-               <div class="row">
-                  <div class="col-lg-12">
-                     <div class="card">
-                        <div class="card-body pe-lg-0">
-                           <h2 class="card-title">News & Veranstaltungen</h2>
-                           <div class="card-text">Rae si volecus impor alictis duntia comnim volupta ssequi apis nonsequis samet pliciti nverem quiscienet mo illiqu.</div>
-                           <a href="#" class="btn btn-primary">Überblick</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="custom-section">
-      <div class="container">
-         <div class="row gy-4">
-            <div class="col-lg-6 col-left pe-lg-5">
-               <div class="pe-lg-5">
-                  <img class="logo_xanh" src="images/logo_xanh.svg" alt="">
-                  <h2 class="mb-3">Du bist ein Teil von uns</h2>
-                  <p>Womit sollte sich die Wasserforschung befassen? Teile deine Ideen und Anregungen mit uns und werde Teil unserer Community! (max. 220 Zeichen)</p>
-               </div>
-            </div>
-            <div class="col-lg-6 col-right">
-               <div class="contact-form">
-                  <form>
-                     <div class="row g-4">
-                        <div class="col-lg-6"><input type="text" class="form-control" placeholder="Name"></div>
-                        <div class="col-lg-6"><input type="text" class="form-control" placeholder="Phone"></div>
-                        <div class="col-lg-12"><textarea class="form-control" rows="4" placeholder="Message"></textarea></div>
-                        <div class="col-lg-12"><button type="submit" class="btn btn-primary">Absenden</button></div>
-                     </div>
-                  </form>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="tintuc">
-      <div class="container">
-         <div class="row" data-masonry='{"percentPosition":true,"horizontalOrder": true}'>
-            <div class="col-lg-4">
-               <div class="card height1 background1">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height2 background2">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height3 background3">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height2 background4">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height3 background3">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height1 background4">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height3 background2">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height1 background3">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="card height2 background1">
-                  <a class="card-body vstack">
-                     <div class="card-text text_ellipsis">Nibh vel velit auctor aliqunean sollicitudin lorem bibeum auci Nibh vel velit auctor aliqunean sollicitudinlorem bibendum Nibh vel velit auctor aliqunean.</div>
-                     <p class="mt-auto">Name Nachname, Ort, Stadtteil</p>
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="hero-section hero2">
-      <div class="container h-100 d-flex align-items-center justify-content-center">
-         <img class="logo_trang" src="images/logo_trang.svg" alt="">
-      </div>
-   </section>
-   <section class="container gallery-section">
-      <h2 class="mb-3">Unsere Event-Galerie</h2>
-      <div class="col-lg-6 pe-lg-1 mb-4 pb-2">
-         <p>Erlebe die schönsten Momente unserer vergangenen Veranstaltungen!
-            In unserer Galerie findest du viele Eindrücke, Highlights und besondere
-            Augenblicke, die wir gemeinsam erlebt haben. Viel Spaß beim Stöbern!
-         </p>
-      </div>
-      <div class="row g-0">
-         <div class="col-lg-6 col-12">
-            <img class="img1 img" src="images/gallery-image1.jpeg" alt="">
-         </div>
-         <div class="col-lg-3 col-6">
+    <div class="custom-bg" style="padding: 5rem 0; position: relative; overflow: hidden;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('https://placehold.co/1920x800/00305E/FFFFFF?text=Background+Image'); background-size: cover; opacity: 0.3;"></div>
+        <div class="container" style="position: relative; z-index: 2; text-align: left;">
+            <h1 class="onwater-text">on water</h1>
+            <p class="wasserwissen-text">WasserWissen in Berlin</p>
+        </div>
+    </div>
+
+    <div class="container menu-container">
+        <a href="#" class="menu-item">START</a>
+        <a href="#" class="menu-item">DIALOGE</a>
+        <a href="#" class="menu-item">PARCOURS</a>
+        <a href="#" class="menu-item">ORTE</a>
+        <a href="#" class="menu-item">THEMEN</a>
+        <a href="#" class="menu-item">KONTAKT</a>
+        <br>
+        <a href="#" class="menu-item">PROGRAMM</a>
+        <a href="#" class="menu-item">NEWS</a>
+        <a href="#" class="menu-item">MITMACHEN</a>
+    </div>
+
+    <div class="container mt-5">
+        <h2>BERLINS WASSERFORSCHUNG IM AUSTAUSCH MIT DER GESELLSCHAFT</h2>
+        <p>Es formt Landschaften, prägt Kulturen, durchdringt Körper und Systeme. Es ist alltäglich, elementar, kostbar:
+            Wasser - ein unerschöpflicher Forschungsgegenstand. Das Programm «On Water. WasserWissen in Berlin"
+            macht so erlebbar, wofür die Berlin University Alliance steht: kollaboratives Forschen, Teilhabe und die
+            Überzeugung, dass wir gemeinsam mehr erreichen. Wir verbinden wissenschaftliche Perspektiven, überwindet
+            Disziplinen und eröffnen neue Wege, um gemeinsam Antworten auf die Wasserprobleme der Zukunft zu
+            finden.</p>
+    </div>
+
+    <div class="section-video">
+        <div class="ratio ratio-16x9 bg-black">
+            <video width="100%" height="100%" controls poster="images/Video_Placeholder.png">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="event-container position-relative overflow-hidden">
+        <div class="green-blob"><img src="images/green-blob-img.svg" alt=""></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2>HEADLINE VERANSTALTUNGEN</h2>
+            <h3 class="fw-normal">Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo<br>
+                ommos ipsame sequis maximus exped magnis rati ulparum endam.</h3>
             <div class="row">
-               <div class="col-12"><img class="img2 img" src="images/gallery-image2.jpeg" alt=""></div>
-               <div class="col-12"><img class="img3 img" src="images/gallery-image3.jpeg" alt=""></div>
+                <div class="col-md-4">
+                    <div class="event-card">
+                        <img src="https://placehold.co/400x200/FFFFFF/00305E?text=Event+Image" alt="Event Image">
+                        <h5>ON WATER. PARCOURS</h5>
+                        <h4>if the Ocean Were a City?"</h4>
+                        <p>03. - 04. Mai 2025</p>
+                        <a href="#">ZUR ANMELDUNG</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="event-card">
+                        <img src="https://placehold.co/400x200/FFFFFF/00305E?text=Event+Image" alt="Event Image">
+                        <h5>ON WATER. PARCOURS</h5>
+                        <h4>,,DIY Hack The Panke"</h4>
+                        <p>20. - 22. Juni 2025</p>
+                        <a href="#">ZUR ANMELDUNG</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="event-card">
+                        <img src="https://placehold.co/400x200/FFFFFF/00305E?text=Event+Image" alt="Event Image">
+                        <h5>ON WATER. PA</h5>
+                        <h4>„Dialog „Kic</h4>
+                        <p>23. Oktober</p>
+                        <a href="#">ZUR ANMELD</a>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="col-lg-3 col-6">
-            <img class="img4 img" src="images/gallery-image4.jpeg" alt="">
-         </div>
-         <div class="col-lg-5 col-12">
-            <div class="row">
-               <div class="col-lg-12 col-12"><img class="img5 img" src="images/gallery-image5.jpeg" alt=""></div>
-               <div class="col-lg-6 col-6">
-                  <img class="img6 img" src="images/gallery-image6.jpeg" alt="">   
-               </div>
-               <div class="col-lg-6 col-6">
-                  <img class="img7 img" src="images/gallery-image7.jpeg" alt="">
-               </div>
+        </div>
+    </div>
+    <section class="contact_map">
+        <img class="w-100" src="images/WASSERWISSEN_bg.png" alt="">
+        <div class="container">
+            <div class="row gx-x gy-5">
+                <div class="col-md-auto col-12">
+                    <div class="col_left">
+                    <h2>WASSERWISSEN VOR ORT</h2>
+                    <h3 class="fw-normal mb-4">Teilen Sie mit uns Ihren Wasser-Ort in Berlin!</h3>
+                    <p>Wo findet sich Expertise über Wasser in Forschung
+                        und Praxis? Entdecken Sie unsere interaktive Karte
+                        und markieren Ihren eigenen Ort des<br>
+                        WasserWissens:</p>
+                    <div class="contact-form mt-4 mb-5 pb-3">
+                        <form>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control rounded-4 border-primary" id="floatingStr" placeholder="">
+                                <label class="text-primary" for="floatingStr">Straße, PLZ</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea rows="5" class="form-control rounded-4 border-primary" placeholder="" id="floatingTextarea"></textarea>
+                                <label class="text-primary" for="floatingTextarea">Welche Expertise über Wasser ist hier zu finden?</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-4 border-primary" id="floatingEmail" placeholder="">
+                                <label class="text-primary" for="floatingEmail">E-Mail</label>
+                            </div>
+                            <button class="btn w-100 rounded-4 btn-primary text-start py-2" type="submit">Absenden</button>
+                        </form>
+                    </div>
+                    <a href="#" class="btn-link">ZUR INTERAKTIVEN WASSER-KARTE ></a>
+                    <div class="map-container mt-2">
+                        <img src="images/Map_Placeholder.png" alt="Map of Berlin">
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="water_image_container">
+                    <img src="images/water_image.png" alt="Water Image" class="img-fluid">
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="col-lg-7 col-12">
-            <img class="img8 img" src="images/gallery-image8.jpeg" alt="">
-         </div>
-      </div>
-   </section>
+        </div>
+    </section>
 </main>
 <?php include 'footer.php'; ?>
