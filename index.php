@@ -43,35 +43,35 @@
     <div class="event-container position-relative overflow-hidden">
         <div class="green-blob"><img src="images/green-blob-img.svg" alt=""></div>
         <div class="container" style="position: relative; z-index: 2;">
-            <h2>HEADLINE VERANSTALTUNGEN</h2>
+            <h2 class="mb-3">HEADLINE VERANSTALTUNGEN</h2>
             <h3 class="fw-normal">Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo<br>
                 ommos ipsame sequis maximus exped magnis rati ulparum endam.</h3>
             <div class="row">
                 <div class="col-md-4">
                     <div class="event-card">
-                        <img src="https://placehold.co/400x200/FFFFFF/00305E?text=Event+Image" alt="Event Image">
+                        <img class="image" src="images/Event_Image_1.png" alt="Event Image">
                         <h5>ON WATER. PARCOURS</h5>
                         <h4>if the Ocean Were a City?"</h4>
                         <p>03. - 04. Mai 2025</p>
-                        <a href="#">ZUR ANMELDUNG</a>
+                        <a class="stretched-link" href="#">ZUR ANMELDUNG</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="event-card">
-                        <img src="https://placehold.co/400x200/FFFFFF/00305E?text=Event+Image" alt="Event Image">
+                        <img class="image" src="images/Event_Image_2.png" alt="Event Image">
                         <h5>ON WATER. PARCOURS</h5>
                         <h4>,,DIY Hack The Panke"</h4>
                         <p>20. - 22. Juni 2025</p>
-                        <a href="#">ZUR ANMELDUNG</a>
+                        <a class="stretched-link" href="#">ZUR ANMELDUNG</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="event-card">
-                        <img src="https://placehold.co/400x200/FFFFFF/00305E?text=Event+Image" alt="Event Image">
+                        <img class="image" src="images/Event_Image_3.png" alt="Event Image">
                         <h5>ON WATER. PA</h5>
                         <h4>„Dialog „Kic</h4>
                         <p>23. Oktober</p>
-                        <a href="#">ZUR ANMELD</a>
+                        <a class="stretched-link" href="#">ZUR ANMELD</a>
                     </div>
                 </div>
             </div>
