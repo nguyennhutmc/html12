@@ -108,13 +108,9 @@ a {
     color: inherit;
 }
 dl, ol, ul {
-    margin-bottom:1rem;
 }
 p{
     margin-bottom:0;
-}
-p+p{
-    margin-top:1rem;
 }
 b,
 strong {

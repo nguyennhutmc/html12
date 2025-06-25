@@ -3,7 +3,6 @@
 }
 
 .home_page:not(.sticky) .navbar {
-    top: 2.5rem;
 }
 
 .color-primary {
@@ -279,8 +278,6 @@ footer .logo_xanh {
 
 footer {
     background: rgba(225, 228, 237, 0.30);
-    padding-top: calc(12.8125rem*var(--ratio-section));
-    padding-bottom: calc(7.5rem*var(--ratio-section));
 }
 
 .korotdong p {
@@ -305,7 +302,6 @@ footer .col-left::after{
     }
 
     .home_page:not(.sticky) .navbar {
-        top:1.25rem;
     }
 
     .logo_img {
