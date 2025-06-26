@@ -1,15 +1,15 @@
 <?php include 'header.php'; ?>
 <main class="home_page">
-    <div class="hero1 custom-bg min-vh-100 vh-100">
+    <section class="hero1 custom-bg min-vh-100 vh-100">
         <div class="position-absolute top-0 start-0 w-100 h-100">
             <img class="w-100 h-100 object-fit-cover" src="images/on_water_bg.png" alt="">
         </div>
         <div class="container position-relative z-2 h-100 hstack">
             <img class="onwater-text-style1 mx-auto" src="images/on_water_with_text_berlin.svg" alt="">
         </div>
-    </div>
+    </section>
 
-    <div class="menu-container w-100 z-2">
+    <section class="menu-container w-100 z-2">
         <div class="container">
             <div class="offcanvas offcanvas-end d-lg-block w-100 visible" tabindex="-1" id="offcanvasNavbar">
                 <div class="mb">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <section class="section_below_banner page1 position-relative">
         <div class="blue-blob"><img src="images/Zur_Ausstellung_im.svg" alt=""></div>
         <div class="container">
