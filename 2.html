@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>On Water</title>
+    <title>On Water Parcours</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,183 +11,244 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            color: #00305E;
+            color: #001f3f;
+            margin: 0;
+            padding: 0;
         }
 
         .navbar {
-            background-color: #ffffff;
+            background-color: #00a699;
+            padding: 20px;
         }
 
         .navbar-brand {
-            margin-left: 5%;
-        }
-
-        .nav-link {
-            color: #00305E;
-            font-weight: 500;
-        }
-
-        .nav-link:hover {
-            color: #001933;
-        }
-
-        .menu-button {
-            background-color: #00305E;
             color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .main-section {
-            background-image: url('https://placehold.co/1920x400/ffffff/00305E?text=Water+Image');
-            background-size: cover;
-            background-position: center;
-            color: #ffffff;
-            text-align: center;
-            padding: 150px 0;
-        }
-
-        .main-title {
-            font-size: 3.5rem;
+            font-size: 24px;
             font-weight: bold;
         }
 
-        .main-subtitle {
-            font-size: 1.5rem;
+        .nav-link {
+            color: #001f3f !important;
+            font-size: 16px;
+            margin-right: 20px;
         }
 
-        .dialoge-menu {
+        .nav-link:hover {
+            color: #0056b3 !important;
+        }
+
+        .hero {
             background-color: #f8f9fa;
-            padding: 10px;
-            margin-top: 5px;
-        }
-
-        .dialoge-menu a {
-            color: #00305E;
-            display: block;
-            padding: 5px 0;
-            text-decoration: none;
-        }
-
-        .dialoge-menu a:hover {
-            color: #001933;
-        }
-
-        .network-section {
-            padding: 50px 0;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        .healdine-section {
-            background-color: #C1A681;
-            padding: 30px;
-            color: #00305E;
-            display: flex;
-            align-items: center;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        .healdine-text {
-            flex: 2;
-            padding-right: 20px;
-        }
-
-        .healdine-image {
-            flex: 1;
-        }
-
-        .healdine-image img {
-            width: 100%;
-            height: auto;
-        }
-
-        .veranstaltungen-section {
-            padding: 50px 0;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        .veranstaltung-item {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #dee2e6;
-            padding-bottom: 20px;
-        }
-
-        .veranstaltung-item h5 {
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .veranstaltung-item p {
-            margin-bottom: 1rem;
-        }
-
-        .footer {
-            background-color: #f8f9fa;
-            padding: 30px 0;
+            padding: 80px 0;
             text-align: center;
         }
 
-        .footer-logos {
+        .hero h1 {
+            font-size: 3em;
             margin-bottom: 20px;
         }
 
-        .footer-logos img {
+        .hero p {
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+
+        .content-section {
+            padding: 80px 0;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .footer p {
+            margin-bottom: 0;
+        }
+
+        .custom-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .logo-section {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo-section img {
             margin: 0 10px;
             height: 50px;
         }
 
-        .footer-text {
-            font-size: 0.75rem;
+        .main-header {
+            background-image: url('https://placehold.co/1920x300/00a699/ffffff?text=Header+Image');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 150px 0;
+        }
+
+        .main-header h1 {
+            font-size: 3em;
+        }
+
+        .main-header p {
+            font-size: 1.2em;
+        }
+
+        .green-background {
+            background-color: #00a699;
+        }
+
+        .white-text {
+            color: white;
+        }
+
+        .dark-blue-text {
+            color: #001f3f;
+        }
+
+        .menu-icon {
+            color: #001f3f;
+            font-size: 30px;
+        }
+
+        .on-water-logo {
+            width: 200px;
+        }
+
+        .parcours-text {
+            font-size: 16px;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        .event-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .event-table th, .event-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .event-table th {
+            background-color: #f2f2f2;
+        }
+
+        .event-table tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .event-title {
+            font-weight: bold;
+        }
+
+        .event-subtitle {
+            font-size: 0.9em;
             color: #6c757d;
         }
 
-        .bottom-footer {
-            background-color: #00305E;
-            color: #ffffff;
+        .event-date {
+            text-align: right;
+        }
+
+        .event-location {
+            text-align: right;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .footer-wave {
+            position: relative;
+            background-color: #fff;
+        }
+
+        .footer-wave::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C300,110 700,100 1200,0 L1200,120 L0,120 Z' fill='%2300a699'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-size: cover;
+            transform: translateY(-100%);
+            z-index: 1;
+        }
+        .footer-logos {
+            padding: 20px 0;
             text-align: center;
-            padding: 15px 0;
-            font-size: 0.8rem;
+            background-color: #fff;
         }
 
-        .btn-primary {
-            background-color: #00305E;
-            border-color: #00305E;
+        .footer-logos img {
+            height: 50px;
+            margin: 0 15px;
+            filter: grayscale(100%);
+            opacity: 0.7;
         }
 
-        .btn-primary:hover {
-            background-color: #001933;
-            border-color: #001933;
+        .footer-text {
+            font-size: 0.7rem;
+            color: #666;
+            margin-top: 10px;
+        }
+        .bottom-footer {
+            background-color: #001f3f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .bottom-footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
         }
     </style>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="https://placehold.co/70x30/ffffff/00305E?text=BUA" alt="Berlin University Alliance" height="30">
+                <img src="https://placehold.co/100x50/ffffff/00a699?text=Logo" alt="Logo" style="height: 30px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="menu-icon"><i class="fas fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">START</a>
+                        <a class="nav-link" href="#">START</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">DIALOGE</a>
-                        <div class="dialoge-menu">
-                            <a href="#">FORMAT</a>
-                            <a href="#">VERANSTALTUNGE</a>
-                            <a href="#">METHODE</a>
-                            <a href="#">ERGEBNISSE</a>
-                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">PARCOURS</a>
@@ -206,124 +267,129 @@
         </div>
     </nav>
 
-    <section class="main-section">
-        <h1 class="main-title">on water</h1>
-        <p class="main-subtitle">DIALOGE</p>
-    </section>
+    <div class="container main-content">
+        <section class="mt-5">
+            <h2 class="dark-blue-text">WISSENSCHAFT, KUNST UND STADT IM AUSTAUSCH</h2>
+            <p>Omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati. Omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati. Omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati.</p>
+        </section>
 
-    <section class="network-section">
-        <h2>NETZWERK FÜR FORSCHUNG UND PRAXIS</h2>
-        <p>On Water. Dialoge ist die Veranstaltungsreihe des TD-Lab - des Labors für transdisziplinäre und partizipative
-            Forschung der BUA-, die Wasser-Expert*innen aus Wissenschaft und Praxis adressiert. In strukturierten
-            Veranstaltungen entwickeln diese gemeinsam Lösungen für konkrete Fallbeispiele auf der Grundlage ihrer
-            spezifischen Wissenskontexte. Auf diese Weise entsteht im Dialog ein Netzwerk zwischen Forschung,
-            Wirtschaft, Politik, Verwaltung und organisierter Zivilgesellschaft. Ziel ist es, Wasserforschung und
-            Wissensaustausch über disziplinäre Grenzen hinaus voranzutreiben - und so Berlins integrativen
-            Forschungsraum zu gestalten.</p>
-    </section>
-
-    <section class="healdine-section">
-        <div class="healdine-text">
-            <h2>HEALDINE</h2>
-            <p>Ur, omnisci aectotae voluptatem assi nempor
-                molut la etur, imo ommos ipsame sequis
-                maximus exped magnis rati ulparum endam.
-                Ur, omnisci aectotae voluptatem assi nempor
-                molut la etur, imo ommos ipsame sequis
-                maximus exped magnis rati ulparum endam.</p>
-        </div>
-        <div class="healdine-image">
-            <img src="https://placehold.co/400x300/ffffff/00305E?text=Jellyfish" alt="Image of a jellyfish">
-        </div>
-    </section>
-
-    <section class="veranstaltungen-section">
-        <h2>VERANSTALTUNGEN</h2>
-        <p>Sehen Sie hier alle ON WATER-Veranstaltungen im Überblick.</p>
-
-        <div class="veranstaltung-item">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>STÄDTISCHEN NUTZUNGSKONFLIKTEN</h5>
-                    <p>UNTERTITEL DER VERANSTALTUNG</p>
-                </div>
-                <div class="col-md-3">
-                    <p>03. - 04. Mai 2025</p>
-                </div>
-                <div class="col-md-3">
-                    <p>VERANSTALTUNGSORT</p>
+        <section class="row mt-5 green-background p-4">
+            <div class="col-md-6">
+                <h2 class="white-text">HEALDINE</h2>
+                <p class="white-text">Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati ulparum endam. Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati ulparum endam.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="video-container">
+                    <img src="https://placehold.co/600x400/ffffff/00a699?text=Video+Placeholder" alt="Video Placeholder">
+                    <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                        <i class="fas fa-play-circle fa-3x" style="color: #00a699;"></i>
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="veranstaltung-item">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>TROCKENHEIT UND HITZE</h5>
-                    <p>UNTERTITEL DER VERANSTALTUNG</p>
-                    <p>Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo
-                        ommos ipsame sequis maximus exped magnis rati ulparum endam. Ur,
-                        omnisci aectotae voluptatem assi nempor molut la etur.</p>
-                    <button class="btn btn-primary">WEITERE INFORMATIONEN</button>
-                </div>
-                <div class="col-md-3">
-                    <p>20. - 22. Juni 2025</p>
-                </div>
-                <div class="col-md-3">
-                    <p>VERANSTALTUNGSORT</p>
-                    <img src="https://placehold.co/100x75/ffffff/00305E?text=People" alt="Image of people">
-                </div>
-            </div>
-        </div>
+        <section class="mt-5">
+            <h2 class="dark-blue-text">VERANSTALTUNGEN</h2>
+            <p>Sehen Sie hier alle ON WATER-Veranstaltungen im Überblick.</p>
 
-        <div class="veranstaltung-item">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>UMGANG MIT DATEN</h5>
-                    <p>UNTERTITEL DER VERANSTALTUNG</p>
-                </div>
-                <div class="col-md-3">
-                    <p>23. Oktober 2025</p>
-                </div>
-                <div class="col-md-3">
-                    <p>VERANSTALTUNGSORT</p>
-                </div>
-            </div>
-        </div>
+            <table class="event-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">03. - 04. Mai 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">20. - 22. Juni 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">23. Oktober 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">02. November 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">23. Oktober 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">02. November 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">02. November 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">23. Oktober 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="event-title">VERANSTALTUNG</div>
+                            <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
+                        </td>
+                        <td class="event-date">02. November 2025</td>
+                        <td class="event-location">VERANSTALTUNGSORT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
 
-        <div class="veranstaltung-item">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>VERANSTALTUNG</h5>
-                </div>
-                <div class="col-md-3">
-                    <p>03. November 2025</p>
-                </div>
-                <div class="col-md-3">
-                    <p>VERANSTALTUNGSORT</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="footer-wave">
+    </div>
 
-    <footer class="footer">
-        <div class="footer-logos">
-            <img src="https://placehold.co/80x50/ffffff/00305E?text=FUB" alt="Freie Universität Berlin">
-            <img src="https://placehold.co/80x50/ffffff/00305E?text=HUB" alt="Humboldt Universität zu Berlin">
-            <img src="https://placehold.co/80x50/ffffff/00305E?text=TUB" alt="Technische Universität Berlin">
-            <img src="https://placehold.co/80x50/ffffff/00305E?text=Charite" alt="Charité">
-        </div>
-        <div class="footer-text">
-            <p>Gefördert vom Bundesministerium für Bildung und Forschung (BMBF) und dem Land
-                Berlin im Rahmen der Exzellenzstrategie von Bund und Ländern</p>
-        </div>
-        <div class="footer-logos">
-            <img src="https://placehold.co/150x40/ffffff/00305E?text=Berlin+University+Alliance" alt="Berlin University Alliance">
-        </div>
-    </footer>
+    <div class="footer-logos">
+        <img src="https://placehold.co/80x50/000000/ffffff?text=FUB" alt="Freie Universität Berlin Logo">
+        <img src="https://placehold.co/80x50/000000/ffffff?text=HUB" alt="Humboldt Universität zu Berlin Logo">
+        <img src="https://placehold.co/80x50/000000/ffffff?text=TUB" alt="Technische Universität Berlin Logo">
+        <img src="https://placehold.co/80x50/000000/ffffff?text=Charite" alt="Charité Logo">
+    </div>
+
+    <div class="footer-logos">
+        <p class="footer-text">Gefördert vom Bundesministerium für Bildung und Forschung (BMBF) und dem Land Berlin im Rahmen der Exzellenzstrategie von Bund und Ländern</p>
+        <img src="https://placehold.co/200x50/000000/ffffff?text=Berlin+University+Alliance" alt="Berlin University Alliance Logo">
+    </div>
 
     <div class="bottom-footer">
-        <p>Impressum Datenschutz</p>
+        <p>&copy; 2024 On Water</p>
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
