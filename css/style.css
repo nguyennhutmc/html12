@@ -41,13 +41,19 @@ header .navbar{
 .offcanvas .dropdown-menu{
     background-color:#F5F1ED;
     border-radius:0;
+    border:0;
+}
+.offcanvas .dropdown-item{
+    padding-right:3.5rem;
+    padding-left:1.44rem;
+    font-size: 1.5625rem;
 }
 .offcanvas .nav-item>.nav-link{
     color: #00376C;
     font-size: 2.1875rem;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height:1;
     padding:0;
 }
 .offcanvas .nav-link:after{
@@ -150,26 +156,35 @@ header .navbar{
     background-color: #00305E;
     padding:calc(var(--ratio)*9rem) 0 calc(var(--ratio)*14rem);
     color: white;
+    --swiper-navigation-sides-offset: -6.25rem;
+    --swiper-navigation-top-offset: -23.5rem;
+}
+.wap_events_card{
+    margin-top:8.625rem;
 }
 .events_card{
-    margin-bottom:8.625rem;
+    width:107.4375rem;
+    position:relative;
+    left:-7.375rem;
 }
 .event-card {
-    margin:.625rem;
+    width:35.8125rem;
     text-align: center;
 }
 
 .event-card img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom:2rem;
+    width:26.59375rem;
+    height:19.8125rem;
+    display:block;
+    margin:0 auto 2.85rem;
+    object-fit:contain;
 }
 
 .event-card h5 {
     font-size: 1.5625rem;
     font-weight: 900;
     line-height: normal;
-    margin-bottom: 5px;
+    margin-bottom:0.3125rem;
 }
 .event-card h4 {
     font-size: 2.1875rem;
@@ -177,13 +192,14 @@ header .navbar{
     line-height: normal;
 }
 .event-card p {
-    font-size: 0.9rem;
+    font-size: 2.1875rem;
 }
 
 .event-card a {
     color:#A58971;
     font-size: 1.25rem;
-    text-decoration: none;
+    font-weight: 700;
+    text-decoration:underline;
 }
 
 .event-card a:hover {
@@ -200,7 +216,7 @@ header .navbar{
     width:29.375rem;
     height:17.9375rem;
     position:absolute;
-    top:4.375rem;
+    top:8.8125rem;
     right:0;
 }
 .contact_map .gx-x{
@@ -224,6 +240,9 @@ header .navbar{
 }
 .contact_map .col_left p{
     line-height:1.7;
+}
+.contact_map .col_left .btn-link{
+    font-size: 1.0625rem;
 }
 .footer-top{
     background:#F5F1ED;
@@ -263,6 +282,10 @@ header .navbar{
     }
     .menu-container .offcanvas-body{
         overflow:visible!important;
+    }
+    .offcanvas .dropdown-menu{
+        left:-1.44rem;
+        transform:translateY(.67rem);
     }
     .section_below_banner{
         padding-top: 20.71rem;

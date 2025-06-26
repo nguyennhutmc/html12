@@ -87,37 +87,45 @@
             <h2 class="mb-3">HEADLINE VERANSTALTUNGEN</h2>
             <h3 class="fw-normal">Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo<br>
                 ommos ipsame sequis maximus exped magnis rati ulparum endam.</h3>
-            <div class="events_card">
-
+            <div class="wap_events_card overflow-hidden position-relative">
+                <div class="events_card position-relative">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><div class="event-card">
+                                    <img class="image" src="images/Event_Image_1.png" alt="Event Image">
+                                    <h5>ON WATER. PARCOURS</h5>
+                                    <h4>if the Ocean Were a City?"</h4>
+                                    <p>03. - 04. Mai 2025</p>
+                                    <a class="stretched-link" href="#">ZUR ANMELDUNG</a>
+                                </div></div>
+                            <div class="swiper-slide"><div class="event-card">
+                                    <img class="image" src="images/Event_Image_2.png" alt="Event Image">
+                                    <h5>ON WATER. PARCOURS</h5>
+                                    <h4>,,DIY Hack The Panke"</h4>
+                                    <p>20. - 22. Juni 2025</p>
+                                    <a class="stretched-link" href="#">ZUR ANMELDUNG</a>
+                                </div></div>
+                            <div class="swiper-slide"><div class="event-card">
+                                    <img class="image" src="images/Event_Image_3.png" alt="Event Image">
+                                    <h5>ON WATER. PA</h5>
+                                    <h4>„Dialog „Kic</h4>
+                                    <p>23. Oktober</p>
+                                    <a class="stretched-link" href="#">ZUR ANMELD</a>
+                                </div></div>
+                            <div class="swiper-slide"><div class="event-card">
+                                    <img class="image" src="images/Event_Image_2.png" alt="Event Image">
+                                    <h5>ON WATER. PARCOURS</h5>
+                                    <h4>,,DIY Hack The Panke"</h4>
+                                    <p>20. - 22. Juni 2025</p>
+                                    <a class="stretched-link" href="#">ZUR ANMELDUNG</a>
+                                </div></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="event-card">
-                        <img class="image" src="images/Event_Image_1.png" alt="Event Image">
-                        <h5>ON WATER. PARCOURS</h5>
-                        <h4>if the Ocean Were a City?"</h4>
-                        <p>03. - 04. Mai 2025</p>
-                        <a class="stretched-link" href="#">ZUR ANMELDUNG</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="event-card">
-                        <img class="image" src="images/Event_Image_2.png" alt="Event Image">
-                        <h5>ON WATER. PARCOURS</h5>
-                        <h4>,,DIY Hack The Panke"</h4>
-                        <p>20. - 22. Juni 2025</p>
-                        <a class="stretched-link" href="#">ZUR ANMELDUNG</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="event-card">
-                        <img class="image" src="images/Event_Image_3.png" alt="Event Image">
-                        <h5>ON WATER. PA</h5>
-                        <h4>„Dialog „Kic</h4>
-                        <p>23. Oktober</p>
-                        <a class="stretched-link" href="#">ZUR ANMELD</a>
-                    </div>
-                </div>
+            <div class="position-relative">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
@@ -136,18 +144,18 @@
                     <div class="contact-form mt-4 mb-5 pb-3">
                         <form>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control rounded-4 border-primary" id="floatingStr" placeholder="">
-                                <label class="text-primary" for="floatingStr">Straße, PLZ</label>
+                                <input type="text" class="form-control rounded-4 border-primary px-4" id="floatingStr" placeholder="">
+                                <label class="text-primary px-4" for="floatingStr">Straße, PLZ</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea rows="5" class="form-control rounded-4 border-primary" placeholder="" id="floatingTextarea"></textarea>
-                                <label class="text-primary" for="floatingTextarea">Welche Expertise über Wasser ist hier zu finden?</label>
+                                <textarea rows="5" class="form-control rounded-4 border-primary px-4" placeholder="" id="floatingTextarea"></textarea>
+                                <label class="text-primary px-4" for="floatingTextarea">Welche Expertise über Wasser ist hier zu finden?</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control rounded-4 border-primary" id="floatingEmail" placeholder="">
-                                <label class="text-primary" for="floatingEmail">E-Mail</label>
+                                <input type="email" class="form-control rounded-4 border-primary px-4" id="floatingEmail" placeholder="">
+                                <label class="text-primary px-4" for="floatingEmail">E-Mail</label>
                             </div>
-                            <button class="btn w-100 rounded-4 btn-primary text-start py-2" type="submit">Absenden</button>
+                            <button class="btn w-100 rounded-4 btn-primary text-start py-3 px-4 lh-sm" type="submit">Absenden</button>
                         </form>
                     </div>
                     <a href="#" class="btn-link">ZUR INTERAKTIVEN WASSER-KARTE ></a>
