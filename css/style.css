@@ -162,7 +162,7 @@ header .navbar{
     --swiper-navigation-top-offset: -23.5rem;
 }
 .wap_events_card{
-    margin-top:calc(var(--ratio)*8.625rem);
+    margin-top:calc(var(--ratio-section)*8.625rem);
 }
 .events_card{
     width:107.4375rem;
@@ -238,7 +238,7 @@ header .navbar{
     height:10.625rem!important;
 }
 .contact_map{
-    padding-bottom:9rem;
+    padding-bottom:calc(var(--ratio-section)*9rem);
 }
 .contact_map .col_left p{
     line-height:1.7;
