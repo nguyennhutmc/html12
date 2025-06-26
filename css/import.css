@@ -132,10 +132,10 @@ h6 {
 }
 h1{}
 h2{
-    font-size: 3.4375rem;
+    font-size:calc(var(--ratio-section)*3.4375rem);
 }
 h3{
-    font-size: 2.1875rem;
+    font-size:calc(var(--ratio-section)*2.1875rem);
 }
 ol,
 ul {
@@ -180,7 +180,7 @@ table, .table {
     color:#00376C!important;
 }
 .btn{
-    --bs-btn-font-size:1.0625rem;
+    --bs-btn-font-size:calc(var(--ratio)*1.0625rem);
 }
 @media (max-width: 991px) {
     :root{

@@ -7,10 +7,10 @@ function init() {
             slidesPerView: 1,
             //spaceBetween:0.75*vw,
             loop: true,
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
+            // autoplay: {
+            //     delay: 5000,
+            //     disableOnInteraction: false,
+            // },
             navigation: {
                 nextEl: ".event-container .swiper-button-next",
                 prevEl: ".event-container .swiper-button-prev",

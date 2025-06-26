@@ -17,7 +17,7 @@
                 <a class="navbar-brand p-0 m-0" href="#">
                     <img src="images/logo.svg" alt="Logo" class="logo_img d-inline-block align-top">
                 </a>
-                <a class="menu m-0 p-0 border-0 mb" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <a class="menu m-0 p-0 border-0 lh-1 mb" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
                     <img src="images/menu.svg" alt="">
                 </a>
             </div>

@@ -12,8 +12,10 @@
     <div class="menu-container w-100 z-2">
         <div class="container">
             <div class="offcanvas offcanvas-end d-lg-block w-100 visible" tabindex="-1" id="offcanvasNavbar">
-                <div class="offcanvas-header mb">
-                    <button type="button" class="btn-close fs-6 me-auto ms-0 ps-0" data-bs-dismiss="offcanvas"></button>
+                <div class="mb">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close fs-6 ms-auto me-0 ps-0 pt-4" data-bs-dismiss="offcanvas"></button>
+                </div>
                 </div>
                 <div class="offcanvas-body p-lg-0">
                     <div class="navbar-expand-lg">
@@ -135,7 +137,7 @@
             <div class="row gx-x gy-5">
                 <div class="col-md-auto col-12">
                     <div class="col_left">
-                    <h2>WASSERWISSEN VOR ORT</h2>
+                    <h2 class="mb-2">WASSERWISSEN VOR ORT</h2>
                     <h3 class="fw-normal mb-4">Teilen Sie mit uns Ihren Wasser-Ort in Berlin!</h3>
                     <p>Wo findet sich Expertise über Wasser in Forschung
                         und Praxis? Entdecken Sie unsere interaktive Karte
@@ -144,18 +146,18 @@
                     <div class="contact-form mt-4 mb-5 pb-3">
                         <form>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control rounded-4 border-primary px-4" id="floatingStr" placeholder="">
-                                <label class="text-primary px-4" for="floatingStr">Straße, PLZ</label>
+                                <input type="text" class="form-control rounded-4 border-primary px-3" id="floatingStr" placeholder="">
+                                <label class="text-primary px-3" for="floatingStr">Straße, PLZ</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea rows="5" class="form-control rounded-4 border-primary px-4" placeholder="" id="floatingTextarea"></textarea>
-                                <label class="text-primary px-4" for="floatingTextarea">Welche Expertise über Wasser ist hier zu finden?</label>
+                                <textarea rows="5" class="form-control rounded-4 border-primary px-3" placeholder="" id="floatingTextarea"></textarea>
+                                <label class="text-primary px-3" for="floatingTextarea">Welche Expertise über Wasser ist hier zu finden?</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control rounded-4 border-primary px-4" id="floatingEmail" placeholder="">
-                                <label class="text-primary px-4" for="floatingEmail">E-Mail</label>
+                                <input type="email" class="form-control rounded-4 border-primary px-3" id="floatingEmail" placeholder="">
+                                <label class="text-primary px-3" for="floatingEmail">E-Mail</label>
                             </div>
-                            <button class="btn w-100 rounded-4 btn-primary text-start py-3 px-4 lh-sm" type="submit">Absenden</button>
+                            <button class="btn w-100 rounded-4 btn-primary text-start py-3 px-3 lh-sm" type="submit">Absenden</button>
                         </form>
                     </div>
                     <a href="#" class="btn-link">ZUR INTERAKTIVEN WASSER-KARTE ></a>
