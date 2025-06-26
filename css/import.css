@@ -219,7 +219,7 @@ table, .table {
     }
 
     .container {
-        width:89.5rem;
+        width:90.5rem;
         max-width: none;
         --bs-gutter-x: 0;
     }

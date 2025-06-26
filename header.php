@@ -13,7 +13,7 @@
 <div id="page">
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid mx-auto px-0">
+            <div class="container-fluid mx-auto">
                 <a class="navbar-brand p-0 m-0" href="#">
                     <img src="images/logo.svg" alt="Logo" class="logo_img d-inline-block align-top">
                 </a>
@@ -24,26 +24,6 @@
         </nav>
     </header>
     <div class="header_height"></div>
-    <div class="offcanvas offcanvas-end d-block" tabindex="-1" id="offcanvasNavbar">
-        <div class="offcanvas-header">
-            <button type="button" class="btn-close fs-6 me-auto ms-0 ps-0" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul class="navbar-nav m-0">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Disabled</a></li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                                 aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
 
 
 
