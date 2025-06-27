@@ -9,166 +9,112 @@
             </div>
         </section>
         <?php include 'menu.php'; ?>
-        <section class="section_below_banner page2 page3 position-relative contact_map">
+        <section class="section_below_banner page4 position-relative">
             <div class="container">
                 <div class="row gx-x gy-5">
                     <div class="col-md-auto col-12">
                         <div class="col_left">
-                            <h2 class="mb-2">WASSERWISSEN VOR ORT</h2>
-                            <p>WasserWissen vor Ort: Welche Orte in Berlin sind<br> für die Wasser-Forschung und Praxis
-                                relevant? <br>Teilen Sie mit uns Ihre Wasserorte:</p>
-                            <div class="contact-form mt-lg-5 mt-4">
-                                <form>
-                                    <div class="form-floating mb-3">
-                                        <input type="text" class="form-control rounded-4 border-primary px-3"
-                                               id="floatingStr" placeholder="">
-                                        <label class="text-primary px-3" for="floatingStr">Straße, PLZ</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <textarea rows="5" class="form-control rounded-4 border-primary px-3"
-                                                  placeholder="" id="floatingTextarea"></textarea>
-                                        <label class="text-primary px-3" for="floatingTextarea">Welche Expertise über
-                                            Wasser ist hier zu finden?</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input type="email" class="form-control rounded-4 border-primary px-3"
-                                               id="floatingEmail" placeholder="">
-                                        <label class="text-primary px-3" for="floatingEmail">E-Mail</label>
-                                    </div>
-                                    <button class="btn w-100 rounded-4 btn-primary text-start py-3 px-3 lh-1"
-                                            type="submit">Absenden
-                                    </button>
-                                </form>
-                            </div>
-                            <div class="map-container mt-lg-5 mt-4">
-                                <img src="images/Map_Placeholder.png" alt="Map of Berlin">
+                            <h2 class="mb-lg-5 mb-4">FACHBRIEFING</h2>
+                            <p>Unser Fachbriefing bringt die wichtigsten Updates rund um Wasser in Forschung und Praxis direkt in Ihr Postfach. Das Fachbriefing wird als monatlicher und kostenloser Newsletter in Zusammenarbeit mit unserem Partner polisphere verschickt und richtet sich an Expert*innen aus Forschung und Praxis in Berlin und darüber hinaus. Entdecken Sie hier aktuelle Wasser-Meldungen aus Wissenschaft, Zivilgesellschaft, Politik und Medien sowie Events und Netzfundstücke und bleiben Sie über die ON WATER-Aktivitäten der Berlin University Alliance informiert.</p>
+                            <div class="my-lg-5 my-4 pt-lg-5 pb-lg-4 py-4">
+                                <a class="btn rounded-4 btn-primary text-start py-3 px-lg-5 px-4 lh-sm"><span class="fw-bold d-inline-block px-lg-5 px-4 mx-lg-4 mx-lg-4 mx-2">JETZT ANMELDEN</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-12">
-                        <div class="water_image_container">
-                            <img src="images/water_image.png" alt="Water Image" class="img-fluid">
+                    <div class="col-md-5 col-12 pt-lg-4 pe-lg-5">
+                        <div class="briefing-section pt-lg-5 mt-lg-5 pe-lg-5 me-lg-4 vstack">
+                            <a class="briefing-item">
+                                <h5>FACHBRIEFING // MÄRZ 2025</h5>
+                                <h3>Weltwassertag in Berlin</h3>
+                            </a>
+                            <a class="briefing-item">
+                                <h5>FACHBRIEFING // APRIL 2025</h5>
+                                <h3>Klimaschutzforschung aus Berlin-Brandenburg</h3>
+                            </a>
+                            <a class="briefing-item">
+                                <h5>FACHBRIEFING // MAI 2025</h5>
+                                <h3>Die Wasserpolitik der neuen Bundesregierung</h3>
+                            </a>
+                            <a class="briefing-item">
+                                <h5>FACHBRIEFING // JUNI 2025</h5>
+                                <h3>Headline</h3>
+                            </a>
+                            <a class="briefing-item">
+                                <h5>FACHBRIEFING // JULI 2025</h5>
+                                <h3>Headline</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="briefing-section">
-            <div class="container">
-                <div class="briefing-item">
-                    FACHBRIEFING // MÄRZ 2025<br>
-                    <b>Weltwassertag in Berlin</b>
-                </div>
-                <div class="briefing-item">
-                    FACHBRIEFING // APRIL 2025<br>
-                    <b>Klimaschutzforschung aus Berlin-Brandenburg</b>
-                </div>
-                <div class="briefing-item">
-                    FACHBRIEFING // MAI 2025<br>
-                    <b>Die Wasserpolitik der neuen Bundesregierung</b>
-                </div>
-                <div class="briefing-item">
-                    FACHBRIEFING // JUNI 2025<br>
-                    <b>Headline</b>
-                </div>
-                <div class="briefing-item">
-                    FACHBRIEFING // JULI 2025<br>
-                    <b>Headline</b>
-                </div>
+            <div class="wave">
+                <img class="w-100" src="images/wave.png" alt="">
             </div>
         </section>
-        <section class="forschung-section">
-            <div class="container">
-                <h2 class="forschung-title">FORSCHUNG AUS BERLIN</h2>
-                <p class="forschung-text">Gemeinsam mit der Platform Gistable (LINK: https://www.gistable.com/) machen
-                    wir Forschung über Wasser aus Berlin zugänglich. Die digitale Plattform übersetzt komplexe Studien
-                    und wissenschaftliche Texte in leicht verständliche Audio- und Textzusammenfassungen. Zahlreiche
-                    Arbeiten von Wissenschaftler*innen der Berlin University Alliance wurden bereits in so genannte
-                    'Gists' umgewandelt - verbunden mit einem Feedbackverfahren mit den Forschenden, dass die richtige
-                    Wiedergabe der Inhalte garantiert. Stöbern Sie hier durch Forschungsergebnisse aus Berlin:</p>
-
-                <div class="forschung-item">
+    <section class="forschung-section text-white">
+        <div class="container">
+            <h2 class="forschung-title mb-lg-5 mb-4">FORSCHUNG AUS BERLIN</h2>
+            <div class="forschung-text mb-lg-5 mb-4">Gemeinsam mit der Platform Gistable (LINK: https://www.gistable.com/) machen wir Forschung über Wasser aus Berlin zugänglich. Die digitale Plattform übersetzt komplexe Studien und wissenschaftliche Texte in leicht verständliche Audio- und Textzusammenfassungen. Zahlreiche Arbeiten von Wissenschaftler*innen der Berlin University Alliance wurden bereits in so genannte 'Gists' umgewandelt - verbunden mit einem Feedbackverfahren mit den Forschenden, dass die richtige Wiedergabe der Inhalte garantiert. Stöbern Sie hier durch Forschungsergebnisse aus Berlin:</div>
+            <div class="forschung_list row g-3 row-cols-lg-2 row-cols-1">
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
-                <div class="forschung-item">
+                    <img src="images/video1.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
-                <div class="forschung-item">
+                    <img src="images/video2.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
-                <div class="forschung-item">
+                    <img src="images/video3.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
-                <div class="forschung-item">
+                    <img src="images/video4.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
-                <div class="forschung-item">
+                    <img src="images/video5.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
-                <div class="forschung-item">
+                    <img src="images/video6.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
-                <div class="forschung-item">
+                    <img src="images/video7.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
+                <a class="forschung-item d-flex gap-lg-3 gap-1 align-items-center">
                     <i class="fas fa-play-circle"></i>
-                    Omnisci aectotae voluptatem
-                    <img src="https://placehold.co/50x50/007bff/ffffff?text=Image"
-                         alt="Placeholder image related to research">
-                </div>
+                    <img src="images/video8.png" alt="Placeholder image related to research">
+                    <span>Omnisci aectotae voluptatem</span>
+                </a>
             </div>
-        </section>
-        <section class="diskurse-section">
-            <div class="container">
-                <h2 class="diskurse-title">DISKURSE</h2>
-                <p class="diskurse-text">Worüber sprechen Forschung und Praxis in Berlin? Welche Themen sind relevant?
-                    Wo sind die Schnittstellen zur Forschung? Unsere Diskursüberblicke untersuchen, wie bestimmte
-                    wasserbezogene Themen von Berliner Akteuren besprochen werden. Die Diskurse werden anhand
-                    verschiedener Quellen analysiert, darunter wissenschaftliche Studien, politische Dokumente,
-                    Medienberichte und Beiträge von zivilgesellschaftlichen Initiativen und aus der Wirtschaft. Dabei
-                    werden sowohl globale Zusammenhänge als auch lokale Besonderheiten berücksichtigt, um ein
-                    umfassendes Verständnis der Thematik zu ermöglichen. Die Analyse fokussiert sich auf diskursive
-                    Beiträge seit Anfang 2024, teilweise werden für die notwendige Kontextualisierung aber auch ältere
-                    Beiträge berücksichtigt. Die Diskursüberblicke wurden für das TD-Lab der Berlin University Alliance
-                    von polisphere (LINK https://www.polisphere.eu/de/) erarbeitet. Informieren Sie sich hier über
-                    relevanten Wasser-Themen aus Forschung und Praxis in Berlin- und darüber hinaus:</p>
+        </div>
+    </section>
+    <section class="diskurse-section">
+        <div class="container">
+            <h2 class="diskurse-title mb-lg-5 mb-4">DISKURSE</h2>
+            <div class="diskurse-text mb-lg-5 mb-4 pb-lg-5 pb-4">Worüber sprechen Forschung und Praxis in Berlin? Welche Themen sind relevant? Wo sind die Schnittstellen zur Forschung? Unsere Diskursüberblicke untersuchen, wie bestimmte wasserbezogene Themen von Berliner Akteuren besprochen werden. Die Diskurse werden anhand verschiedener Quellen analysiert, darunter wissenschaftliche Studien, politische Dokumente, Medienberichte und Beiträge von zivilgesellschaftlichen Initiativen und aus der Wirtschaft. Dabei werden sowohl globale Zusammenhänge als auch lokale Besonderheiten berücksichtigt, um ein umfassendes Verständnis der Thematik zu ermöglichen. Die Analyse fokussiert sich auf diskursive Beiträge seit Anfang 2024, teilweise werden für die notwendige Kontextualisierung aber auch ältere Beiträge berücksichtigt. Die Diskursüberblicke wurden für das TD-Lab der Berlin University Alliance von polisphere (LINK https://www.polisphere.eu/de/) erarbeitet. Informieren Sie sich hier über relevanten Wasser-Themen aus Forschung und Praxis in Berlin- und darüber hinaus:</div>
 
-                <div class="diskurse-images">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image1" alt="Diskurs image 1">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image2" alt="Diskurs image 2">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image3" alt="Diskurs image 3">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image4" alt="Diskurs image 4">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image5" alt="Diskurs image 5">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image6" alt="Diskurs image 6">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image7" alt="Diskurs image 7">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image8" alt="Diskurs image 8">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image9" alt="Diskurs image 9">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image10" alt="Diskurs image 10">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image11" alt="Diskurs image 11">
-                    <img src="https://placehold.co/150x150/007bff/ffffff?text=Image12" alt="Diskurs image 12">
-                </div>
-
-                <button class="alle-diskurse-button">ALLE DISKURSE IM ÜBERBLICK</button>
+            <div class="diskurse-images">
+                <img src="images/DISKURSE_IMG.png" alt="">
             </div>
-        </section>
+
+            <div class="pt-4">
+                <a class="btn rounded-4 btn-primary text-start py-3 px-lg-5 px-4 lh-sm"><span class="fw-bold d-inline-block px-lg-5 px-4 mx-lg-4 mx-lg-4 mx-2">ALLE DISKURSE IM ÜBERBLICK</span></a>
+            </div>
+        </div>
+        <div class="div_wave_page4 text-end pe-none">
+            <img class="wave_page4" src="images/rectangle_page4.png" alt="">
+        </div>
+    </section>
     </main>
 <?php include 'footer.php'; ?>

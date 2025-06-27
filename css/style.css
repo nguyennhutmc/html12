@@ -319,7 +319,7 @@ header .navbar{
 .page3.contact_map .gx-x{
     --bs-gutter-x:4.39rem;
 }
-.mapping{
+.mapping,.forschung-section{
     background-color: #003865;
     padding:calc(var(--ratio-section)*10.5rem) 0 calc(var(--ratio-section)*13rem);
 }
@@ -340,6 +340,45 @@ header .navbar{
 }
 .list_mapping .item span{
     display:inline-block;
+}
+.briefing-section{}
+.briefing-item {
+    padding: 0.89rem 0;
+    border-bottom:0.1875rem solid #A58971;
+}
+.briefing-item:last-child {
+    border-bottom: none;
+}
+.briefing-section h5{
+    font-size: 1.5625rem;
+    font-weight: 900;
+    line-height: normal;
+}
+.briefing-section h4{
+    color: #00376C;
+    font-weight: 900;
+    line-height: normal;
+}
+.forschung-section{
+    background:#00376C;
+}
+.forschung-item .fa-play-circle{
+    font-size:calc(var(--ratio-section)*4.1875rem);
+}
+.forschung-item img{
+    width:calc(var(--ratio-section)*7.47431rem);
+    height:calc(var(--ratio-section)*4.94425rem);
+    border-radius:calc(var(--ratio-section)*1.25rem);
+    margin-left:.25rem;
+    margin-right:.5rem;
+}
+.forschung-item span{
+}
+.diskurse-section{
+    padding-top:calc(var(--ratio-section)*11rem);
+}
+.div_wave_page4{
+    margin-top:calc(var(--ratio-section)* -4rem);
 }
 /* mobile */
 @media (max-width: 991.98px) {
@@ -440,6 +479,15 @@ header .navbar{
     }
     .list_mapping .item{
         font-size: 94%;
+    }
+    .page4 .row.gx-x{
+        --bs-gutter-x:7.77rem;
+    }
+    .page4 .col_left{
+        width: 42.375rem;
+    }
+    .wave_page4{
+        width:57.5625rem;
     }
 }
 
