@@ -57,6 +57,8 @@ header .navbar{
     font-weight: 700;
     line-height:1;
     padding:0;
+    position: relative;
+    display: inline-flex;
 }
 .offcanvas .nav-link:after{
     display:none;
@@ -314,7 +316,31 @@ header .navbar{
 .event-location {
     text-align: right;
 }
-.contact_map .gx-x
+.page3.contact_map .gx-x{
+    --bs-gutter-x:4.39rem;
+}
+.mapping{
+    background-color: #003865;
+    padding:calc(var(--ratio-section)*10.5rem) 0 calc(var(--ratio-section)*13rem);
+}
+.list_mapping{
+    --bs-gutter-y:2rem;
+}
+.list_mapping .item{
+    font-weight: 700;
+    line-height: normal;
+    display:flex;
+    align-items: start;
+}
+.list_mapping .item .before{
+    width:calc(var(--ratio-section)*4.5625rem);
+    height:calc(var(--ratio-section)*2.8125rem);
+    object-fit: contain;
+    margin-right:calc(var(--ratio-section)*1rem);
+}
+.list_mapping .item span{
+    display:inline-block;
+}
 /* mobile */
 @media (max-width: 991.98px) {
     :root {
@@ -408,6 +434,12 @@ header .navbar{
     .hero2{}
     .page3 .water_image_container{
         width: 42.43144rem;
+    }
+    .mapping .container{
+        width:93.75rem;
+    }
+    .list_mapping .item{
+        font-size: 94%;
     }
 }
 

@@ -46,116 +46,22 @@
             </div>
         </div>
     </section>
-
-    <section class="green-background text-white">
+    <section class="mapping text-white">
         <div class="container">
-            <div class="row g-lg-5 g-4">
-                <div class="col-md-6">
-                    <h2 class="white-text mb-lg-5 mb-4">HEALDINE</h2>
-                    <div class="white-text pe-lg-5 me-lg-5">
-                        <p>Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati ulparum endam. Ur, omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati ulparum endam.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="video-container">
-                        <div class="ratio ratio-16x9 bg-black">
-                            <video width="100%" height="100%" controls="" poster="images/Video_Placeholder.png">
-                                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="mb-3">MAPPING</h2>
+            <h3 class="fw-normal mb-lg-5 mb-4 pb-lg-3 pb-2">ON WATER verbindet Wasser-Wissen aus Berlin. Orte des Wassers werden sichtbar gemacht. Die "WasserWissen-Orte" wurden durch Dr. Friederike Landau-Donelly erarbeitet.</h3>
+            <div class="list_mapping list-unstyled row gx-0 gy-y row-cols-1 row-cols-lg-3">
+                <a href="#" class="item"><img src="images/icon_wasserwissen.png" alt="" class="before"><span>WasserWissen-Orte</span></a>
+                <a href="#" class="item"><img src="images/icon_parcours.png" alt="" class="before"><span>PARCOURS-Veranstaltungen</span></a>
+                <a href="#" class="item"><img src="images/icon_weitere1.png" alt="" class="before"><span>Weitere Orte</span></a>
+                <a href="#" class="item"><img src="images/icon_verbundpartnerinnen.png" alt="" class="before"><span>Verbundpartnerinnen der Berlin University Alliance</span></a>
+                <a href="#" class="item"><img src="images/icon_dialog.png" alt="" class="before"><span>DIALOG-Veranstaltungen</span></a>
+                <a href="#" class="item"><img src="images/icon_weitere2.png" alt="" class="before"><span>Weitere Orte</span></a>
             </div>
         </div>
     </section>
-
-    <section class="section_table">
-        <div class="container">
-            <h2 class="text-primary mb-5">VERANSTALTUNGEN</h2>
-            <p>Sehen Sie hier alle ON WATER-Veranstaltungen im Überblick.</p>
-            <div class="table-responsive">
-            <table class="event-table">
-                <tbody>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">03. - 04. Mai 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">20. - 22. Juni 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">23. Oktober 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">02. November 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">23. Oktober 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">02. November 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">02. November 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">23. Oktober 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="event-title">VERANSTALTUNG</div>
-                        <div class="event-subtitle">UNTERTITEL DER VERANSTALTUNG</div>
-                    </td>
-                    <td class="event-date">02. November 2025</td>
-                    <td class="event-location">VERANSTALTUNGSORT</td>
-                </tr>
-                </tbody>
-            </table>
-            </div>
-        </div>
-        <div class="wave">
-            <img class="w-100" src="images/wave.png" alt="">
-        </div>
+    <section class="maps">
+        <img class="w-100" src="images/maps_2.png" alt="">
     </section>
 </main>
 <?php include 'footer.php'; ?>
