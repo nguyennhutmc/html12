@@ -103,7 +103,7 @@
                                 <input type="email" class="form-control rounded-4 border-primary px-3" id="floatingEmail" placeholder="">
                                 <label class="text-primary px-3" for="floatingEmail">E-Mail</label>
                             </div>
-                            <button class="btn w-100 rounded-4 btn-primary text-start py-3 px-3 lh-sm" type="submit">Absenden</button>
+                            <button class="btn w-100 rounded-4 btn-primary text-start py-3 px-3 lh-1" type="submit">Absenden</button>
                         </form>
                     </div>
                     <a href="#" class="btn-link">ZUR INTERAKTIVEN WASSER-KARTE ></a>

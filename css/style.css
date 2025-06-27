@@ -228,14 +228,15 @@ header .navbar{
     font-size:calc(var(--ratio)*1.0625rem);
 }
 .contact-form .form-floating>label{
-
+    line-height:1;
 }
 .contact-form .form-floating>.form-control{
-    /*height: calc(2.5625rem + calc(var(--bs-border-width) * 2));*/
-    /*min-height: calc(2.5625rem + calc(var(--bs-border-width) * 2));*/
+    height: calc(2.875rem + calc(var(--bs-border-width) * 2));
+    min-height: calc(2.875rem + calc(var(--bs-border-width) * 2));
+    line-height:1;
 }
 .contact-form textarea{
-    height:10.625rem!important;
+    height:11rem!important;
 }
 .contact_map{
     padding-bottom:calc(var(--ratio-section)*9rem);
@@ -283,7 +284,7 @@ header .navbar{
 }
 
 .event-table th, .event-table td {
-    padding:2rem 1.14rem 1.14rem 0;
+    padding:calc(var(--ratio)*2rem) 1.14rem calc(var(--ratio)*1.14rem) 0;
     text-align: left;
     border-bottom:0.1875rem solid #A58971;
 }
