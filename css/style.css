@@ -160,6 +160,7 @@ header .navbar{
     color: white;
     --swiper-navigation-sides-offset: -6.25rem;
     --swiper-navigation-top-offset: -23.5rem;
+    --swiper-navigation-color:#fff;
 }
 .wap_events_card{
     margin-top:calc(var(--ratio-section)*8.625rem);
@@ -313,6 +314,7 @@ header .navbar{
 .event-location {
     text-align: right;
 }
+.contact_map .gx-x
 /* mobile */
 @media (max-width: 991.98px) {
     :root {
@@ -388,6 +390,10 @@ header .navbar{
     .water_image_container{
         width: 53rem;
     }
+    .page3 .water_image_container img.img-fluid{
+        height: 59.48425rem;
+        object-fit:cover;
+    }
     .menu-container{
         position:absolute;
     }
@@ -400,6 +406,9 @@ header .navbar{
         padding-bottom:14.5rem;
     }
     .hero2{}
+    .page3 .water_image_container{
+        width: 42.43144rem;
+    }
 }
 
 @media (min-width: 1920px) {}

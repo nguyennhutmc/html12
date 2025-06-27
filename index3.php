@@ -2,22 +2,48 @@
 <main class="sub_page">
     <section class="hero2 custom-bg position-relative">
         <div class="position-absolute top-0 start-0 w-100 h-100">
-            <img class="w-100 h-100 object-fit-cover" src="images/on_water_bg2.png" alt="">
+            <img class="w-100 h-100 object-fit-cover" src="images/on_water_bg3.png" alt="">
         </div>
         <div class="container position-relative z-2 h-100 hstack">
-            <img class="onwater-text-style2 mx-auto" src="images/on_water_with_text_parcours.png" alt="">
+            <img class="onwater-text-style2 mx-auto" src="images/on_water_with_text_berlin.svg" alt="">
         </div>
     </section>
     <?php include 'menu.php'; ?>
-    <section class="section_below_banner page2 position-relative">
+    <section class="section_below_banner page2 page3 position-relative contact_map">
         <div class="container">
-            <h2 class="mb-3">WISSENSCHAFT, KUNST UND STADT <br>IM AUSTAUSCH</h2>
-            <p>Omnisci aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped
-                voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati. Omnisci
-                aectotae voluptatem assi nempor molut la etur, imo ommos ipsame sequis maximus exped voluptatem assi
-                nempor molut la etur, imo ommos ipsame sequis maximus exped magnis rati. Omnisci aectotae voluptatem
-                assi nempor molut la etur, imo ommos ipsame sequis maximus exped voluptatem assi nempor molut la etur,
-                imo ommos ipsame sequis maximus exped magnis rati.</p>
+            <div class="row gx-x gy-5">
+                <div class="col-md-auto col-12">
+                    <div class="col_left">
+                        <h2 class="mb-2">WASSERWISSEN VOR ORT</h2>
+                        <p>WasserWissen vor Ort: Welche Orte in Berlin sind<br> für die Wasser-Forschung und Praxis relevant? <br>Teilen Sie mit uns Ihre Wasserorte:</p>
+                        <div class="contact-form mt-lg-5 mt-4">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control rounded-4 border-primary px-3" id="floatingStr" placeholder="">
+                                    <label class="text-primary px-3" for="floatingStr">Straße, PLZ</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <textarea rows="5" class="form-control rounded-4 border-primary px-3" placeholder="" id="floatingTextarea"></textarea>
+                                    <label class="text-primary px-3" for="floatingTextarea">Welche Expertise über Wasser ist hier zu finden?</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control rounded-4 border-primary px-3" id="floatingEmail" placeholder="">
+                                    <label class="text-primary px-3" for="floatingEmail">E-Mail</label>
+                                </div>
+                                <button class="btn w-100 rounded-4 btn-primary text-start py-3 px-3 lh-1" type="submit">Absenden</button>
+                            </form>
+                        </div>
+                        <div class="map-container mt-lg-5 mt-4">
+                            <img src="images/Map_Placeholder.png" alt="Map of Berlin">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="water_image_container">
+                        <img src="images/water_image.png" alt="Water Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
