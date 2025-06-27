@@ -350,7 +350,7 @@ header .navbar{
     border-bottom: none;
 }
 .briefing-section h5{
-    font-size: 1.5625rem;
+    font-size:calc(var(--ratio-section)*1.5625rem);
     font-weight: 900;
     line-height: normal;
 }
